@@ -1,0 +1,22 @@
+body
+{
+    
+    background-size: cover;
+    border-radius: 10mm;
+    background-color: rgba(0, 0, 0, 0.829);
+    font-size: 1cm;
+    
+}
+body >center > img
+{
+    height: 5cm;
+    width: 5cm;
+    margin-top: 5mm;
+}
+div
+{
+    
+    color: rgb(255, 255, 255);
+     text-align: left;
+     margin-left: 30mm;
+}
