@@ -3,7 +3,7 @@ body
     
     background-size: cover;
     border-radius: 10mm;
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: rgb(4, 41, 48);
     font-size: 1cm;
     display: flexbox;
     position: inherit;
@@ -24,11 +24,11 @@ div
 }
 .textbox
 {
-    border-radius: 20mm; 
-    background-color: rgba(12, 206, 240, 0.349);
-    position: inherit;
+    border-radius: 15mm; 
+    background-color: rgba(128, 233, 252, 0.349);
     border: rgba(255, 255, 240, 0);
-    tab-size: inherit;
+    initial-value: sh;
+    
 }
 .tablecss
 {   border-color: ivory;
@@ -36,4 +36,20 @@ div
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
+    row-gap: 10mm;
+}
+.spin
+{
+    motion-rotation:360deg;
+    transition-duration: 60s;
+}
+.subutton
+{
+    width: 3cm;
+    border-radius: 20mm;
+    border-color: rgba(255, 255, 240, 0);
+    initial-value: sub;
+    content: icon;
+    shape-rendering:geometricPrecision;
 }
