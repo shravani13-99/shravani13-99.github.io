@@ -3,22 +3,14 @@
 width:max-content;
 border-radius: 10mm;
 background: rgba(255, 0, 0, 0);
-border: rgb(0, 0, 0) inset left;
+border: rgba(0, 0, 0, 0);
 font:bolder 25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: rgb(254, 255, 255);
 cursor:pointer;
 }
-li {
-  color: white;
-  float:left;
-  list-style-type: none;
-  display: inline;
-}
-ul{
-  color: white;
-  margin: 0;
-  padding: 0 auto;
-  display: table;
-  float: left;
- 
+.imgg
+{
+width: 3cm;
+align-items: center;
+background-size: cover;
 }

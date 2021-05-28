@@ -2,11 +2,28 @@ body{
     background-color: rgb(0, 0, 0);
     text-decoration-color: white;
     color: white;
-    background-image:url(bg.jpg);
+    background:url(bg.jpg) no-repeat ;
     background-size: cover;
 }
-.imgg
-{
-width: 3cm;
-align-items: center;
-}
+
+li {
+    color: white;
+    float:left;
+    list-style-type: none;
+    display: inline;
+  }
+  ul{
+    color: white;
+    margin: 0;
+    padding: 0 auto;
+    display: table;
+    float: left;
+   
+  }
+  p,ul{
+    background-color: rgba(255, 255, 255, 0.267);
+    background-origin:border-box;
+    border-radius: 10mm ;
+    align-self:flex-start;
+    align-content: flex-start;
+  }
