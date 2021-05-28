@@ -1,6 +1,24 @@
 .id1
 {
-width:fit-content;
-border-radius: 20mm;
-background-color: rgba(173, 168, 168, 0.267);
+width:max-content;
+border-radius: 10mm;
+background: rgba(255, 0, 0, 0);
+border: rgb(0, 0, 0) inset left;
+font:bolder 25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(254, 255, 255);
+cursor:pointer;
+}
+li {
+  color: white;
+  float:left;
+  list-style-type: none;
+  display: inline;
+}
+ul{
+  color: white;
+  margin: 0;
+  padding: 0 auto;
+  display: table;
+  float: left;
+ 
 }
