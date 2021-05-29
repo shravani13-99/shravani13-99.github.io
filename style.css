@@ -19,7 +19,7 @@ li {
     float: left;
    
   }
-  p,li{
+  p,ul{
     background-color: rgba(255, 255, 255, 0.267);
     background-origin:border-box;
     border-radius: 10mm ;
@@ -27,3 +27,8 @@ li {
     align-self:flex-start;
     align-content: flex-start;
   }
+  li{
+    border-left: 6px solid rgba(247, 157, 247, 0.616);
+    border-radius: 10mm;
+  }
+  
