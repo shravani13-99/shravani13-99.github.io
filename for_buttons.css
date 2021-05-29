@@ -8,9 +8,22 @@ font:bolder 25px 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri
 color: rgb(254, 255, 255);
 cursor:pointer;
 }
+center>p {
+    border-left: 6px solid rgb(255, 255, 255);
+    border-right: 6px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.37);
+    color: white;
+  }
 .imgg
 {
 width: 3cm;
 align-items: center;
 background-size: cover;
+}
+.Tsearch
+{
+    background-color: rgba(255, 255, 255, 0.473);
+    color: white;
+    border-left: inset;
+    border-bottom: inset;
 }

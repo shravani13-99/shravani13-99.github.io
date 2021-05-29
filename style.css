@@ -1,9 +1,8 @@
 body{
-    background-color: rgb(0, 0, 0);
     text-decoration-color: white;
     color: white;
-    background:url(bg.jpg) no-repeat ;
-    background-size: cover;
+    background:url(bg.jpg) repeat-y content-box;
+    
 }
 
 li {
@@ -20,10 +19,11 @@ li {
     float: left;
    
   }
-  p,ul{
+  p,li{
     background-color: rgba(255, 255, 255, 0.267);
     background-origin:border-box;
     border-radius: 10mm ;
+    border-left: 6px solid white;
     align-self:flex-start;
     align-content: flex-start;
   }
