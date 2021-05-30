@@ -18,15 +18,15 @@ li {
     margin: 0;
     padding: 0 auto;
     display: table;
-    float:left;
     margin:auto;
-    
+    float: left;
+    width: 90%;
     
   }
   p,ul{
     background-color: rgba(255, 255, 255, 0.267);
     background-origin:border-box;
-    border-radius: 0mm ;
+    border-radius: 10mm ;
     border-left: 6px solid white;
     border-right: 6px solid white;
     align-content: flex-end;
