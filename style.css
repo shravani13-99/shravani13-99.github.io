@@ -1,7 +1,7 @@
 body{
     text-decoration-color: white;
     color: white;
-    background:url(bg.jpg) repeat-y content-box ;
+    background:url(bg.jpg) repeat-x content-box ;
     background-size: cover;
    
     
