@@ -26,13 +26,11 @@ li {
   p,ul{
     background-color: rgba(255, 255, 255, 0.267);
     background-origin:border-box;
-    border-radius: 10mm ;
+    border-radius: 0mm ;
     border-left: 6px solid white;
     border-right: 6px solid white;
-    align-self:flex-start;
+    align-content: flex-end;
     align-content: flex-start;
-    text-align: center;
-    
     margin-top: 2px;
   }
   li{
@@ -41,5 +39,7 @@ li {
     border-radius: 10mm;
     margin-left: 20px;
     margin-right: 20px;
+    align-content: flex-end;
+    align-content: flex-start;
   }
   
