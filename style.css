@@ -1,7 +1,9 @@
 body{
     text-decoration-color: white;
     color: white;
-    background:url(bg.jpg) repeat-y content-box;
+    background:url(bg.jpg) repeat-y content-box ;
+    background-size: cover;
+   
     
 }
 
@@ -16,19 +18,26 @@ li {
     margin: 0;
     padding: 0 auto;
     display: table;
-    float: left;
-   
+    float:left;
+    margin:auto;
+    
+    
   }
   p,ul{
     background-color: rgba(255, 255, 255, 0.267);
     background-origin:border-box;
     border-radius: 10mm ;
     border-left: 6px solid white;
+    border-right: 6px solid white;
     align-self:flex-start;
     align-content: flex-start;
+    text-align: center;
   }
   li{
     border-left: 6px solid rgba(247, 157, 247, 0.616);
+    border-right: 6px solid rgba(247, 157, 247, 0.616);
     border-radius: 10mm;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
