@@ -32,6 +32,8 @@ li {
     align-self:flex-start;
     align-content: flex-start;
     text-align: center;
+    
+    margin-top: 2px;
   }
   li{
     border-left: 6px solid rgba(247, 157, 247, 0.616);
