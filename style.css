@@ -1,9 +1,10 @@
 body{
     text-decoration-color: white;
     color: white;
-    background:url(bg.jpg) repeat-x content-box ;
+    background:url(bg.jpg) repeat-y content-box ;
     background-size: cover;
-   
+   width: auto;
+   font-size: 1em;
     
 }
 
@@ -20,7 +21,8 @@ li {
     display: table;
     margin:auto;
     float: left;
-    width: 90%;
+    width: 97%;
+    text-align: justify;
     
   }
   p,ul{
@@ -29,17 +31,14 @@ li {
     border-radius: 10mm ;
     border-left: 6px solid white;
     border-right: 6px solid white;
-    align-content: flex-end;
-    align-content: flex-start;
-    margin-top: 2px;
+    align-items:center;
+    align-content: center;
+    
   }
   li{
-    border-left: 6px solid rgba(247, 157, 247, 0.616);
-    border-right: 6px solid rgba(247, 157, 247, 0.616);
     border-radius: 10mm;
     margin-left: 20px;
-    margin-right: 20px;
-    align-content: flex-end;
-    align-content: flex-start;
+    margin-right: center;
+  
   }
   
