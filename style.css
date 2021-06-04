@@ -10,18 +10,17 @@ body{
 
 li {
     color: white;
-    float:left;
-    list-style-type: none;
-    display: inline;
+    float:inherit;
+   display: inline;
   }
   ul{
     color: white;
     margin: 0;
     padding: 0 auto;
-    display: table;
+    
     margin:auto;
     float: left;
-    width: 97%;
+    max-width:none;
     text-align: justify;
     align-self:center;
   }
@@ -31,7 +30,6 @@ li {
     border-radius: 10mm ;
     border-left: 6px solid white;
     border-right: 6px solid white;
-    
   }
   li{
     border-radius: 10mm;
